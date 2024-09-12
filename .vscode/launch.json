@@ -1,0 +1,39 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "DemoAll",
+      "configurations": [
+        "Solution:6701",
+        "Demo02:6702"
+      ]
+    }
+  ],
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Solution:6701",
+      "request": "launch",
+      "mainClass": "com.webmath.WebmathApplication",
+      "projectName": "webmath",
+      "vmArgs": "-Dserver.port=6701"
+    },
+    {
+      "type": "java",
+      "name": "Demo02:6702",
+      "request": "launch",
+      "mainClass": "com.example.demo02.Demo02Application",
+      "projectName": "demo02",
+      "vmArgs": "-Dserver.port=6702"
+    }
+  ]
+}
