@@ -8,17 +8,11 @@
       "name": "DemoAll",
       "configurations": [
         "Solution:6701",
-        "Demo02:6702"
+        "Solution"
       ]
     }
   ],
   "configurations": [
-    {
-      "type": "java",
-      "name": "Launch Current File",
-      "request": "launch",
-      "mainClass": "${file}"
-    },
     {
       "type": "java",
       "name": "Solution:6701",
@@ -29,11 +23,11 @@
     },
     {
       "type": "java",
-      "name": "Demo02:6702",
+      "name": "Solution",
       "request": "launch",
-      "mainClass": "com.example.demo02.Demo02Application",
-      "projectName": "demo02",
-      "vmArgs": "-Dserver.port=6702"
-    }
+      "mainClass": "com.webmath.WebmathApplication",
+      "projectName": "webmath",
+      "vmArgs": "-Dserver.port=0"
+    },
   ]
 }

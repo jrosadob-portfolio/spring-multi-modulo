@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:6701
+
+GET {{baseUrl}}/api/sum?a=5&b=6 HTTP/1.1
+###
+
+GET {{baseUrl}}/api/suma1 HTTP/1.1
+###
+
+GET {{baseUrl}}/api/suma2 HTTP/1.1
+###
+
